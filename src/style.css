@@ -503,3 +503,7 @@ tr.permission-row:nth-child(even) {
 .fixedGridLayout #side-panel {
     position: relative;
 }
+
+.build-row.multi-line .build-row-cell .block {
+    overflow: hidden !important;
+}
