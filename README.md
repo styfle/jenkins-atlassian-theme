@@ -49,7 +49,7 @@ CSS & JS files are minified and compressed with Grunt. To prepare the environmen
 
 ```
 npm install
-grunt
+npm run build
 ```
 
 This will generate the following files:
@@ -62,7 +62,7 @@ dist/theme.js
 You can publish the files on gh-pages with the following command:
 
 ```
-grunt deploy
+npm run deploy
 ```
 
 And you can find the files at:
